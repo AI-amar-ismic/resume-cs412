@@ -1,0 +1,266 @@
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px;
+    padding-bottom: 0.5em;
+    padding-top:0.5em;
+    color:#2c3e50;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    flex-basis: 10em;
+    margin-bottom: 3em;
+}
+
+nav section a {
+    color: #2c3e50;
+    text-decoration: none;
+    padding: 0.2em;
+    transition: border 300ms;
+    position: sticky;
+}
+nav section a:hover{
+    border-top: 1px solid #2c3e50;
+    border-bottom: 1px solid #2c3e50;
+}
+
+body{
+    background-color: #ecf0f1;
+}
+
+header h1{
+    font-family: 'Bebas Neue', cursive;
+    color: #2980b9;
+    font-size: 3em;
+    margin: 0;
+
+}
+header h2{
+    font-family: 'Bebas Neue', cursive;
+    color: #c0392b;
+    font-size: 1.5em;
+    margin:0;
+    margin-bottom: 1em;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#welcome{
+    font-family: 'Raleway', cursive;
+    color:#2980b9;
+}
+
+.main-index{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-basis: 10em;
+}
+ #me{
+     width: 20em;
+     height: 20em;
+     border: 3px solid #c0392b;
+ }
+
+ section p {
+     max-width: 15em;
+     font-family: 'Raleway', cursive;
+     margin-bottom: 0;
+ }
+#signature{
+    font-family: 'Dancing Script',cursive;
+    font-size: 1.5em;
+    color:#c0392b;
+}
+ section h3{
+    border-bottom: 1px solid #2c3e50;
+     border-top: 1px solid #2c3e50;
+     max-width: 9.5em;
+     min-width: 9.5em;
+ }
+
+ .category{
+     font-family: 'Raleway', cursive;
+     font-weight: bold;
+     color: #c0392b;
+     border-bottom: 1px solid #2c3e50;
+     border-top: 1px solid #2c3e50;
+     font-size: 1.1em;
+ }
+ .answer{
+     font-family: 'Raleway', cursive;
+     font-size: 0.9em;
+ }
+
+ .databox{
+     width: 10em;
+    align-items: baseline;
+     padding: 0 20px 20px 20px;
+     transition: 300ms ease-in-out;
+ }
+
+.main-personal{
+    display: flex;
+    justify-content: space-around;
+    flex-basis: 10em;
+    align-items: baseline;
+}
+
+#main-education{
+    display: flex;
+    justify-content: space-around;
+    flex-basis: 10em;
+    align-items: baseline;
+}
+
+.databox:hover{
+    border-radius: 10px;
+    background-color: #d9d9d9;
+}
+
+.eduData{
+    width: 10em;
+    align-items: baseline;
+    padding: 0 20px 20px 20px;
+    transition: 300ms ease-in-out;
+}
+
+.eduData:hover{
+    border-radius: 10px;
+    background-color: #d9d9d9;
+}
+
+.linkToSchool{
+    text-decoration: none;
+    color: #c0392b;
+    transition: 300ms ease-in-out;
+    padding: 2px;
+}
+
+.linkToSchool:hover{
+    background-color: #c0392b;
+    color: white;
+}
+
+#exMain{
+    display: flex;
+    justify-content: space-around;
+    flex-basis: 10em;
+    align-items: baseline;
+    flex-wrap: wrap;
+    flex-basis:10em;
+
+}
+
+.exData{
+    padding: 5px 10px 10px 10px;
+    transition: 300ms ease-in-out;
+    border-radius: 10px;
+}
+
+.exData:hover{
+    background-color: #d9d9d9;
+}
+
+.containerUS{
+    padding: 20px 0;
+}
+.containerUS:nth-of-type(1){
+    border-bottom: 2px solid #3498db;
+}
+
+#questionsUS{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+#questionsUS section:nth-of-type(1){
+    margin-right: 15em;
+}
+
+#picturesUSTitle{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#picturesUS{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 10em;
+    justify-content: space-between;
+}
+
+#picturesUS img{
+    width: 25em;
+    height: 35em;
+    margin-right: 5px;
+    min-width: 300px;
+    min-height: 600px;
+}
+
+.containerUS:nth-of-type(1){
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-basis: 10em;
+}
+
+#welcome2{
+    max-width: 15em;
+    font-family: 'Raleway', cursive;
+    margin-bottom: 0;
+    border-bottom: 5px solid #c0392b;
+     border-top: 5px solid #c0392b;
+    font-size: 1.2em;
+}
+
+#main-contact{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Raleway', cursive;
+    align-items: center;
+
+}
+
+
+#main-contact h2{
+    
+    font-family: 'Raleway', cursive;
+    border-bottom: 5px solid #c0392b;
+     border-top: 5px solid #c0392b;
+    padding-bottom: 0;
+
+}
+
+form button{
+    display: block;
+    padding:7px;
+    font-family: 'Raleway', cursive;
+    font-size: 0.9rem;
+    font-weight: bold;
+    border-radius: 10px;
+    width: 5rem;
+    height: 2rem;
+    background-color: #ecf0f1;
+    color:#c0392b;
+    border-style: none;
+    border: 2px solid #c0392b;
+    transition: 300ms ease-in-out;
+}
+
+form button:hover{
+    background-color: #e74c3c;
+    color: #ecf0f1;
+}
+
+#linkToSite{
+    text-align: center;
+    font-family: 'Raleway', cursive;
+}
